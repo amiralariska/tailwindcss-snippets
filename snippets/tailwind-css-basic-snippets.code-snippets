@@ -1,0 +1,36 @@
+{
+    "Tailwindcss basic":{
+        "prefix": "@tb",
+        "scope": "css, scss, less",
+        "body": [
+            "$BLOCK_COMMENT_START Tailwindcss basic file $BLOCK_COMMENT_END",
+            "@tailwind base;\n@tailwind components;\n@tailwind utilities;"
+        ],
+        "description": "Tailwindcss tailwind basic at rule"
+    },
+    "Tailwindcss layer basic":{
+        "prefix": "@lb",
+        "scope": "css, scss, less",
+        "body": [
+            "$BLOCK_COMMENT_START Tailwindcss layer basic file $BLOCK_COMMENT_END",
+            "@layer ${1|base,components,utilities|}{\n\th1{\n\t\t@apply $2;$0\n\t}\n}"
+        ],
+    },
+    "Tailwindcss theme basic":{
+        "prefix": "thb",
+        "scope": "css, scss, less",
+        "body": [
+            "$BLOCK_COMMENT_START Tailwindcss theme basic file $BLOCK_COMMENT_END",
+            "${1:background}: theme(${2:backgroundColor}.${3:white});$0"
+        ],
+    },
+    
+    "Tailwindcss screen basic":{
+        "prefix": "sb",
+        "scope": "css, scss, less",
+        "body": [
+            "$BLOCK_COMMENT_START Tailwindcss screen basic file $BLOCK_COMMENT_END",
+            "@media screen($1){\n\t$BLOCK_COMMENT_START...$BLOCK_COMMENT_END$0\n}"
+        ],
+    },
+}

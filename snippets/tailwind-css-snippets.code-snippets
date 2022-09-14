@@ -1,0 +1,27 @@
+{
+    "Tailwindcss tailwind at rule":{
+        "prefix": "@tailwind",
+        "scope": "css, scss, less",
+        "body": "@tailwind ${1|base,components,utilities,variants|};$0"
+    },
+    "Tailwindcss layer at rule":{
+        "prefix": "@layer",
+        "scope": "css, scss, less",
+        "body": "@layer ${1|base,components,utilities|}{\n\t$0\n}"
+    },
+    "Tailwindcss apply at rule":{
+        "prefix": "@apply",
+        "scope": "css, scss, less",
+        "body": "@apply $0;"
+    },
+    "Tailwindcss theme function":{
+        "prefix": "theme()",
+        "scope": "css, scss, less",
+        "body": "theme(${1:backgroundColor}.${2:white})$0"
+    },
+    "Tailwindcss screen function":{
+        "prefix": "screen()",
+        "scope": "css, scss, less",
+        "body": "screen($1)"
+    },
+}

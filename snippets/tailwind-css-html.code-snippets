@@ -1,0 +1,56 @@
+{
+    "Tailwindcss html template":{
+        "prefix": "!t",
+        "body": [
+            "$BLOCK_COMMENT_START Tailwindcss html template $BLOCK_COMMENT_END",
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "\t<meta charset=\"UTF-8\">",
+            "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "\t$BLOCK_COMMENT_START link tailwindcss css file $BLOCK_COMMENT_END",
+            "\t<link rel=\"stylesheet\" href=\"/dist/${1:tailwindcss}.dist.css\">",
+            "\t<title>${2:My Project}</title>",
+            "</head>",
+            "<body>",
+            "\t<div class=\"\">$3</div>$0",
+            "</body>",
+            "</html>",
+        ]
+    },
+    "Tailwindcss html basic template":{
+        "prefix": "!tb",
+        "body": [
+            "$BLOCK_COMMENT_START Tailwindcss html basic template $BLOCK_COMMENT_END",
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "\t<meta charset=\"UTF-8\">",
+            "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "\t$BLOCK_COMMENT_START link tailwindcss css basic file $BLOCK_COMMENT_END",
+            "\t<link rel=\"stylesheet\" href=\"/dist/${1:output}.css\">",
+            "\t<title>${2:My Project}</title>",
+            "</head>",
+            "<body>",
+            "\t<div class=\"\">$3</div>$0",
+            "</body>",
+            "</html>",
+        ]
+    },
+    "Tailwindcss link tailwindcss css file":{
+        "prefix": "link:tailwindcss",
+        "body": [
+            "$BLOCK_COMMENT_START link tailwindcss css file $BLOCK_COMMENT_END",
+            "<link rel=\"stylesheet\" href=\"/dist/${1:tailwindcss}.dist.css\">$0"
+        ]
+    },
+    "Tailwindcss link tailwindcss css basic file":{
+        "prefix": "link:tcb",
+        "body": [
+            "$BLOCK_COMMENT_START link tailwindcss css basic file $BLOCK_COMMENT_END",
+            "<link rel=\"stylesheet\" href=\"/dist/${1:output}.css\">$0"
+        ]
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "Tailwindcss react function component template":{
+        "prefix": "rfct",
+        "scope": "javascript,javascriptreact",
+        "body": [
+            "import React from 'react'\n",
+            "export default function ${1:${TM_FILENAME_BASE}}() {",
+            "\treturn (\n\t\t<>\n\t\t\t<div className=\"\">${1:first}</div>$0\n\t\t</>\n\t)",
+            "}",
+        ]
+    },
+    "Tailwindcss react arrow function variable component template":{
+        "prefix": "rafvct",
+        "scope": "javascript, javascriptreact",
+        "body": [
+            "import React from 'react'\n",
+            "export var ${1:${TM_FILENAME_BASE}} = () => {",
+            "\treturn (\n\t\t<>\n\t\t\t<div className=\"\">${1:first}</div>$0\n\t\t</>\n\t)",
+            "}",
+        ]
+    },
+    "Tailwindcss react arrow function constant component template":{
+        "prefix": "rafcnct",
+        "scope": "javascript, javascriptreact",
+        "body": [
+            "import React from 'react'\n",
+            "export const ${1:${TM_FILENAME_BASE}} = () => {",
+            "\treturn (\n\t\t<>\n\t\t\t<div className=\"\">${1:first}</div>$0\n\t\t</>\n\t)",
+            "}",
+        ]
+    },
+    "Tailwindcss react arrow function let component template":{
+        "prefix": "raflct",
+        "scope": "javascript, javascriptreact",
+        "body": [
+            "import React from 'react'\n",
+            "export let ${1:${TM_FILENAME_BASE}} = () => {",
+            "\treturn (\n\t\t<>\n\t\t\t<div className=\"\">${1:first}</div>$0\n\t\t</>\n\t)",
+            "}",
+        ]
+    },
+    "Tailwindcss react class template component":{
+        "prefix": "rcct",
+        "scope": "javascript, javascriptreact",
+        "body": [
+            "import React, { Component } from 'react'\n",
+            "export default class ${1:${TM_FILENAME_BASE}} extends Component {",
+            "\trender(){",
+            "\t\treturn (\n\t\t\t<>\n\t\t\t\t<div className=\"\">${1:first}</div>$0\n\t\t\t</>\n\t\t)",
+            "\t}",
+            "}",
+        ]
+    },
+    "Tailwindcss react import css file":{
+        "prefix": "imt",
+        "scope": "javascript, javascriptreact",
+        "body": "import 'tailwind.css';" 
+    },
+    "Tailwindcss react import css basic file":{
+        "prefix": "imtb",
+        "scope": "javacript, javascriptreact",
+        "body": "import 'index.css';" 
+    }
+}

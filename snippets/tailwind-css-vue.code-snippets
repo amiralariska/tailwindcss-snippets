@@ -1,0 +1,36 @@
+{
+    "Tailwindcss vue template": {
+        "prefix": "<vue> with tailwindcss.vue ✌",
+        "body": [
+            "<template>\n<div class=\"\">$1</div>\n</template>",
+            "<script>",
+            "\t$BLOCK_COMMENT_START eslint-disable $BLOCK_COMMENT_END",
+            "import './assets/tailwind.css'",
+            "export default {\nname: 'App'\n}",
+            "</script>",
+            "<style>\n</style>$0"
+        ],
+    },
+    "Tailwindcss vue template script tag": {
+        "prefix": "<script> tailwindcss.vue ✌",
+        "body": [
+            "<script>",
+            "\t$BLOCK_COMMENT_START eslint-disable $BLOCK_COMMENT_END",
+            "import './assets/tailwind.css'",
+            "export default {\nname: 'App'\n}",
+            "</script>",
+        ],
+    },
+    "Tailwindcss vue template style tag": {
+        "prefix": "<style> tailwindcss.vue ✌",
+        "body": [
+            "<style>\n</style>$0"
+        ],
+    },
+    "Tailwindcss vue template tag": {
+        "prefix": "<template> tailwindcss.vue ✌",
+        "body": [
+            "<template>\n<div class=\"\">$1</div>\n</template>$0",
+        ],
+    },
+}

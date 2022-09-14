@@ -1,0 +1,74 @@
+{
+    "Tailwindcss javascript config":{
+        "prefix": "tcjs",
+        "body": [
+            "$BLOCK_COMMENT_START* @type {import('tailwindcss').Config} $BLOCK_COMMENT_END",
+            "$LINE_COMMENT Blank Tailwindcss Config File",
+            "module.exports = {",
+            "\tcontent: [\"$1\"],",
+            "\ttheme: {\n\t\textend: {},\n\t},",
+            "\tplugins: [],",
+            "}"
+        ]
+    },
+    "Tailwindcss javascript config html":{
+        "prefix": "tcjshtml",
+        "body": [
+            "$BLOCK_COMMENT_START* @type {import('tailwindcss').Config} $BLOCK_COMMENT_END",
+            "$LINE_COMMENT HTML Tailwindcss Config File",
+            "module.exports = {",
+            "\tcontent: [\"index.html\"],",
+            "\ttheme: {\n\t\textend: {},\n\t},",
+            "\tplugins: [],",
+            "}"
+        ]
+    },
+    "Tailwindcss javascript config react":{
+        "prefix": "tcjsreact",
+        "body": [
+            "$BLOCK_COMMENT_START* @type {import('tailwindcss').Config} $BLOCK_COMMENT_END",
+            "$LINE_COMMENT React Tailwindcss Config File",
+            "module.exports = {",
+            "\tcontent: [\"./src/**/*.{js,jsx,ts,tsx}\"],",
+            "\ttheme: {\n\t\textend: {},\n\t},",
+            "\tplugins: [],",
+            "}"
+        ]
+    },
+    "Tailwindcss javascript config vue":{
+        "prefix": "tcjsvue",
+        "body": [
+            "$BLOCK_COMMENT_START* @type {import('tailwindcss').Config} $BLOCK_COMMENT_END",
+            "$LINE_COMMENT Vue Tailwindcss Config File",
+            "module.exports = {",
+            "\tcontent: [\"./src/**/*.{vue,js,ts,jsx,tsx}\"],",
+            "\ttheme: {\n\t\textend: {},\n\t},",
+            "\tplugins: [],",
+            "}"
+        ]
+    },
+    "Tailwindcss javascript config vite":{
+        "prefix": "tcjsvite",
+        "body": [
+            "$BLOCK_COMMENT_START* @type {import('tailwindcss').Config} $BLOCK_COMMENT_END",
+            "$LINE_COMMENT Vite Tailwindcss Config File",
+            "module.exports = {",
+            "\tcontent: [\"$1\"],",
+            "\ttheme: {\n\t\textend: {},\n\t},",
+            "\tplugins: [],",
+            "}"
+        ]
+    },
+    "Tailwindcss javascript config vite react":{
+        "prefix": "tcjsvitereact",
+        "body": [
+            "$BLOCK_COMMENT_START* @type {import('tailwindcss').Config} $BLOCK_COMMENT_END",
+            "$LINE_COMMENT Vite React Tailwindcss Config File",
+            "module.exports = {",
+            "\tcontent: [\"./src/**/*.{js,ts,jsx,tsx}\"],",
+            "\ttheme: {\n\t\textend: {},\n\t},",
+            "\tplugins: [],",
+            "}"
+        ]
+    },
+}
