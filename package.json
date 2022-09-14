@@ -1,0 +1,66 @@
+{
+    "name": "tailwindcss-snippets",
+    "displayName": "Tailwind CSS Snippets",
+    "description": "Tailwind CSS Snippets For CSS, SCSS, LESS And Javascript",
+    "publisher": "amiralariska",
+    "icon": "icon/tailwindcss.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amiralariska/tailwindcss-snippets"
+    },
+    "author": {
+        "name": "Amiral Ariska"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "galleryBanner": {
+        "color": "#38bdf8",
+        "theme": "light"
+    },
+    "categories": [
+        "Snippets",
+        "Extension Packs"
+    ],
+    "keywords": [
+        "Tailwind CSS Intellisense",
+        "Tailwind CSS Snippets",
+        "Tailwind CSS Extension Pack",
+        "tailwind",
+        "tailwindcss",
+        "css",
+        "intellisense",
+        "autocomplete",
+        "snippets",
+        "vscode"
+    ],
+    "extensionPack": [
+        "bradlc.vscode-tailwindcss"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "path": "./snippets/tailwind-css-snippets.code-snippets"
+            },
+            {
+                "path": "./snippets/tailwind-css-basic-snippets.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/tailwind-css-html.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/tailwind-css-vue.code-snippets"
+            },
+            {
+                "path": "./snippets/tailwind-css-react.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/tailwind-css-tailwind-javascript-config-snippets.code-snippets"
+            }
+        ]
+    }
+}
